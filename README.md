@@ -1,5 +1,58 @@
-# Simple project using clean architecture
-Clean Architecture is a software development methodology that emphasizes the separation of concerns and the independence of the components that make up a software system. It is a way of organizing code that prioritizes maintainability, testability, and scalability, and seeks to minimize the coupling between different parts of the system. Clean Architecture aims to create a system that is flexible and easy to change, and that can evolve over time without becoming bogged down by technical debt or other issues. At its core, Clean Architecture is about creating software that is focused on the business logic of the system, rather than on the implementation details of a particular technology or framework.
+# School Project Using Clean Architecture
+This is a Java project that follows the Clean Architecture principles. The project aims to provide a sample implementation of Clean Architecture using Java.
 
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-![CleanArchitecture](https://user-images.githubusercontent.com/48565278/228993938-f73bfb99-87b9-4d73-b59c-09dd818d577f.jpg)
+### Prerequisites
+To run this project, you will need:
+
+* Java Development Kit (JDK) 11
+* Maven
+* Git
+* Installing
+* Clone the repository
+
+### Installing
+1. Clone the repository
+
+```bash
+git clone https://github.com/rflsousa/school-clean-arc.git
+```
+
+2. Change directory to the project root
+
+```bash
+cd school-clean-arc
+```
+3. Build the project
+
+```bash
+mvn clean install
+```
+
+4. Run the project
+
+```bash
+java -jar target/school-clean-arc-1.0-SNAPSHOT.jar
+```
+
+### Project Structure
+The project follows the Clean Architecture principles and is divided into the following packages:
+
+- domain: This package contains the core business logic of the application. It includes entities, use cases, and interfaces for repositories and services.
+- application: This package contains the application-specific logic. It includes use case implementations and interfaces for external services.
+- infrastructure: This package contains the implementation details of the application. It includes database and web adapters, as well as external libraries and frameworks.
+
+### Running the Tests
+To run the tests, execute the following command:
+
+```bash
+mvn test
+```
+
+### Built With
+* Java - Programming language
+* Maven - Build tool
+* JUnit - Testing framework
+* Mockito - Mocking framework
