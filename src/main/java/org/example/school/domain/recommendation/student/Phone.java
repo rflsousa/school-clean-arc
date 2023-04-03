@@ -1,4 +1,4 @@
-package org.example.school;
+package org.example.school.domain.recommendation.student;
 
 public class Phone {
     private String dialingCode;
