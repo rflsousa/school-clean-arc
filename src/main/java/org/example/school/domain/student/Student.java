@@ -1,4 +1,4 @@
-package org.example.school.domain.recommendation.student;
+package org.example.school.domain.student;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.example.school.domain.recommendation.student;
+package org.example.school.domain.student;
 
 public class StudentFactory {
 

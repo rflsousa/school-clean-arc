@@ -1,6 +1,6 @@
-package org.example.school.student;
+package org.example.school.domain.student;
 
-import org.example.school.domain.recommendation.student.Phone;
+import org.example.school.domain.student.Phone;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

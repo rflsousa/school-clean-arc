@@ -1,9 +1,9 @@
 package org.example.school.infrastructure.student;
 
-import org.example.school.domain.recommendation.student.Document;
-import org.example.school.domain.recommendation.student.Student;
-import org.example.school.domain.recommendation.student.StudentNotFound;
-import org.example.school.domain.recommendation.student.StudentRepository;
+import org.example.school.domain.student.Document;
+import org.example.school.domain.student.Student;
+import org.example.school.domain.student.StudentNotFound;
+import org.example.school.domain.student.StudentRepository;
 
 import java.util.ArrayList;
 import java.util.List;

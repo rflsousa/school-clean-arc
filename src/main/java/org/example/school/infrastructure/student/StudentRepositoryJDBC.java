@@ -1,6 +1,6 @@
 package org.example.school.infrastructure.student;
 
-import org.example.school.domain.recommendation.student.*;
+import org.example.school.domain.student.*;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

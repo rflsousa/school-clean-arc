@@ -1,7 +1,7 @@
-package org.example.school.student.recommendation;
+package org.example.school.application.recommendation;
 
 import org.example.school.application.recommendation.SendEmailRecommend;
-import org.example.school.domain.recommendation.student.Student;
+import org.example.school.domain.student.Student;
 
 public class SendEmailRecommendedJavaMail implements SendEmailRecommend {
     @Override

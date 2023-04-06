@@ -1,6 +1,6 @@
 package org.example.school.infrastructure.student;
 
-import org.example.school.domain.recommendation.student.PasswordCipher;
+import org.example.school.domain.student.PasswordCipher;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

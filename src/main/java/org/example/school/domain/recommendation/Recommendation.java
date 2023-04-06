@@ -1,6 +1,6 @@
 package org.example.school.domain.recommendation;
 
-import org.example.school.domain.recommendation.student.Student;
+import org.example.school.domain.student.Student;
 
 import java.time.LocalDateTime;
 
